@@ -39,7 +39,6 @@ export default function App() {
     <Stack.Navigator initialRouteName="Home">
     
     {/* Home Screen */}
-      {/* <Stack.Screen name="Home" component={Home}/> */}
     <Stack.Screen name='Home' options={{
       headerShown:false,
     }}>
@@ -68,7 +67,7 @@ export default function App() {
 
      }}/>
 
-    {/* Sem Screen It Indicates to chexk the info of the sem you choose*/}
+    {/* Sem Screen. It Indicates to check the info of the sem you choose*/}
     <Stack.Screen name = "Sem" component={Sem} options={{
       headerTitleStyle:{
         fontSize:25,
@@ -107,85 +106,3 @@ export default function App() {
   </NavigationContainer>
   );
 } 
-
-  
-
-
-// {
-//   "name": "mini6",
-//   "version": "1.0.0",
-//   "main": "node_modules/expo/AppEntry.js",
-//   "scripts": {
-//     "start": "expo start",
-//     "android": "expo start --android",
-//     "ios": "expo start --ios",
-//     "web": "expo start --web",
-//     "eject": "expo eject"
-//   },
-//   "dependencies": {
-//     "@expo-google-fonts/josefin-sans": "^0.2.2",
-//     "@expo-google-fonts/nunito": "^0.2.2",
-//     "@react-navigation/native": "^6.0.10",
-//     "@react-navigation/native-stack": "^6.6.2",
-//     "expo": "~45.0.0",
-//     "expo-app-loading": "~2.0.0",
-//     "expo-status-bar": "~1.3.0",
-//     "react": "17.0.2",
-//     "react-dom": "17.0.2",
-//     "react-native": "0.68.2",
-//     "react-native-openanything": "^0.0.6",
-//     "react-native-safe-area-context": "4.2.4",
-//     "react-native-screens": "~3.11.1",
-//     "react-native-web": "0.17.7",
-//     "expo-checkbox": "~2.1.0",
-//     "expo-updates": "~0.13.2"
-//   },
-//   "devDependencies": {
-//     "@babel/core": "^7.12.9"
-//   },
-//   "private": true
-// }
-
-
-
-
-
-// {
-//   "expo": {
-//     "name": "Btech CSE App",
-//     "slug": "mini6",
-//     "version": "1.0.0",
-//     "orientation": "portrait",
-//     "icon": "./assets/icon.png",
-//     "userInterfaceStyle": "light",
-//     "splash": {
-//       "image": "./assets/splash.png",
-//       "resizeMode": "contain",
-//       "backgroundColor": "#ffffff"
-//     },
-//     "updates": {
-//       "fallbackToCacheTimeout": 0
-//     },
-//     "assetBundlePatterns": [
-//       "**/*"
-//     ],
-//     "ios": {
-//       "bundleIdentifier":"com.mridul.btechcse",
-//       "supportsTablet": true
-//     },
-//     "android": {
-//       "bundleIdentifier":"com.mridul.btechapppk",
-//       "buildNumber":"1.0.0",
-//       "adaptiveIcon": {
-//         "foregroundImage": "./assets/adaptive-icon.png",
-//         "backgroundColor": "#FFFFFF"
-//       }
-//     },
-//     "web": {
-//       "favicon": "./assets/favicon.png"
-//     }
-//   }
-// }
-
-
-
